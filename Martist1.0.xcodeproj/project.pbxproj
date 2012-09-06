@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B1A2FCA15F83A3C0047FBB4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B1A2FC915F83A3C0047FBB4 /* UIKit.framework */; };
+		3B1A2FCC15F83A3C0047FBB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B1A2FCB15F83A3C0047FBB4 /* Foundation.framework */; };
+		3B1A2FCE15F83A3C0047FBB4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B1A2FCD15F83A3C0047FBB4 /* CoreGraphics.framework */; };
+		3B1A2FD415F83A3C0047FBB4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B1A2FD215F83A3C0047FBB4 /* InfoPlist.strings */; };
+		3B1A2FD615F83A3C0047FBB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1A2FD515F83A3C0047FBB4 /* main.m */; };
+		3B1A2FDA15F83A3C0047FBB4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1A2FD915F83A3C0047FBB4 /* AppDelegate.m */; };
+		3B1A2FDD15F83A3C0047FBB4 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1A2FDC15F83A3C0047FBB4 /* RootViewController.m */; };
+		3B1A2FE015F83A3C0047FBB4 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1A2FDF15F83A3C0047FBB4 /* DataViewController.m */; };
+		3B1A2FE315F83A3C0047FBB4 /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1A2FE215F83A3C0047FBB4 /* ModelController.m */; };
+		3B1A2FE615F83A3D0047FBB4 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B1A2FE415F83A3C0047FBB4 /* MainStoryboard_iPhone.storyboard */; };
+		3B1A2FE915F83A3D0047FBB4 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B1A2FE715F83A3D0047FBB4 /* MainStoryboard_iPad.storyboard */; };
+		3B1A2FF115F83A3D0047FBB4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B1A2FF015F83A3D0047FBB4 /* SenTestingKit.framework */; };
+		3B1A2FF215F83A3D0047FBB4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B1A2FC915F83A3C0047FBB4 /* UIKit.framework */; };
+		3B1A2FF315F83A3D0047FBB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B1A2FCB15F83A3C0047FBB4 /* Foundation.framework */; };
+		3B1A2FFB15F83A3D0047FBB4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B1A2FF915F83A3D0047FBB4 /* InfoPlist.strings */; };
+		3B1A2FFE15F83A3D0047FBB4 /* Martist1_0Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1A2FFD15F83A3D0047FBB4 /* Martist1_0Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B1A2FF415F83A3D0047FBB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B1A2FBC15F83A3C0047FBB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B1A2FC415F83A3C0047FBB4;
+			remoteInfo = Martist1.0;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B1A2FC515F83A3C0047FBB4 /* Martist1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Martist1.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B1A2FC915F83A3C0047FBB4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3B1A2FCB15F83A3C0047FBB4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3B1A2FCD15F83A3C0047FBB4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3B1A2FD115F83A3C0047FBB4 /* Martist1.0-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Martist1.0-Info.plist"; sourceTree = "<group>"; };
+		3B1A2FD315F83A3C0047FBB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3B1A2FD515F83A3C0047FBB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B1A2FD715F83A3C0047FBB4 /* Martist1.0-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Martist1.0-Prefix.pch"; sourceTree = "<group>"; };
+		3B1A2FD815F83A3C0047FBB4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B1A2FD915F83A3C0047FBB4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B1A2FDB15F83A3C0047FBB4 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		3B1A2FDC15F83A3C0047FBB4 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		3B1A2FDE15F83A3C0047FBB4 /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		3B1A2FDF15F83A3C0047FBB4 /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		3B1A2FE115F83A3C0047FBB4 /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
+		3B1A2FE215F83A3C0047FBB4 /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		3B1A2FE515F83A3C0047FBB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		3B1A2FE815F83A3D0047FBB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		3B1A2FEF15F83A3D0047FBB4 /* Martist1.0Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Martist1.0Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B1A2FF015F83A3D0047FBB4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		3B1A2FF815F83A3D0047FBB4 /* Martist1.0Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Martist1.0Tests-Info.plist"; sourceTree = "<group>"; };
+		3B1A2FFA15F83A3D0047FBB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3B1A2FFC15F83A3D0047FBB4 /* Martist1_0Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Martist1_0Tests.h; sourceTree = "<group>"; };
+		3B1A2FFD15F83A3D0047FBB4 /* Martist1_0Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Martist1_0Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B1A2FC215F83A3C0047FBB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B1A2FCA15F83A3C0047FBB4 /* UIKit.framework in Frameworks */,
+				3B1A2FCC15F83A3C0047FBB4 /* Foundation.framework in Frameworks */,
+				3B1A2FCE15F83A3C0047FBB4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B1A2FEB15F83A3D0047FBB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B1A2FF115F83A3D0047FBB4 /* SenTestingKit.framework in Frameworks */,
+				3B1A2FF215F83A3D0047FBB4 /* UIKit.framework in Frameworks */,
+				3B1A2FF315F83A3D0047FBB4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B1A2FBA15F83A3C0047FBB4 = {
+			isa = PBXGroup;
+			children = (
+				3B1A2FCF15F83A3C0047FBB4 /* Martist1.0 */,
+				3B1A2FF615F83A3D0047FBB4 /* Martist1.0Tests */,
+				3B1A2FC815F83A3C0047FBB4 /* Frameworks */,
+				3B1A2FC615F83A3C0047FBB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B1A2FC615F83A3C0047FBB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B1A2FC515F83A3C0047FBB4 /* Martist1.0.app */,
+				3B1A2FEF15F83A3D0047FBB4 /* Martist1.0Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B1A2FC815F83A3C0047FBB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B1A2FC915F83A3C0047FBB4 /* UIKit.framework */,
+				3B1A2FCB15F83A3C0047FBB4 /* Foundation.framework */,
+				3B1A2FCD15F83A3C0047FBB4 /* CoreGraphics.framework */,
+				3B1A2FF015F83A3D0047FBB4 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B1A2FCF15F83A3C0047FBB4 /* Martist1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				3B1A2FD815F83A3C0047FBB4 /* AppDelegate.h */,
+				3B1A2FD915F83A3C0047FBB4 /* AppDelegate.m */,
+				3B1A2FDB15F83A3C0047FBB4 /* RootViewController.h */,
+				3B1A2FDC15F83A3C0047FBB4 /* RootViewController.m */,
+				3B1A2FDE15F83A3C0047FBB4 /* DataViewController.h */,
+				3B1A2FDF15F83A3C0047FBB4 /* DataViewController.m */,
+				3B1A2FE115F83A3C0047FBB4 /* ModelController.h */,
+				3B1A2FE215F83A3C0047FBB4 /* ModelController.m */,
+				3B1A2FE415F83A3C0047FBB4 /* MainStoryboard_iPhone.storyboard */,
+				3B1A2FE715F83A3D0047FBB4 /* MainStoryboard_iPad.storyboard */,
+				3B1A2FD015F83A3C0047FBB4 /* Supporting Files */,
+			);
+			path = Martist1.0;
+			sourceTree = "<group>";
+		};
+		3B1A2FD015F83A3C0047FBB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B1A2FD115F83A3C0047FBB4 /* Martist1.0-Info.plist */,
+				3B1A2FD215F83A3C0047FBB4 /* InfoPlist.strings */,
+				3B1A2FD515F83A3C0047FBB4 /* main.m */,
+				3B1A2FD715F83A3C0047FBB4 /* Martist1.0-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B1A2FF615F83A3D0047FBB4 /* Martist1.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3B1A2FFC15F83A3D0047FBB4 /* Martist1_0Tests.h */,
+				3B1A2FFD15F83A3D0047FBB4 /* Martist1_0Tests.m */,
+				3B1A2FF715F83A3D0047FBB4 /* Supporting Files */,
+			);
+			path = Martist1.0Tests;
+			sourceTree = "<group>";
+		};
+		3B1A2FF715F83A3D0047FBB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B1A2FF815F83A3D0047FBB4 /* Martist1.0Tests-Info.plist */,
+				3B1A2FF915F83A3D0047FBB4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B1A2FC415F83A3C0047FBB4 /* Martist1.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B1A300115F83A3D0047FBB4 /* Build configuration list for PBXNativeTarget "Martist1.0" */;
+			buildPhases = (
+				3B1A2FC115F83A3C0047FBB4 /* Sources */,
+				3B1A2FC215F83A3C0047FBB4 /* Frameworks */,
+				3B1A2FC315F83A3C0047FBB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Martist1.0;
+			productName = Martist1.0;
+			productReference = 3B1A2FC515F83A3C0047FBB4 /* Martist1.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B1A2FEE15F83A3D0047FBB4 /* Martist1.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B1A300415F83A3D0047FBB4 /* Build configuration list for PBXNativeTarget "Martist1.0Tests" */;
+			buildPhases = (
+				3B1A2FEA15F83A3D0047FBB4 /* Sources */,
+				3B1A2FEB15F83A3D0047FBB4 /* Frameworks */,
+				3B1A2FEC15F83A3D0047FBB4 /* Resources */,
+				3B1A2FED15F83A3D0047FBB4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B1A2FF515F83A3D0047FBB4 /* PBXTargetDependency */,
+			);
+			name = Martist1.0Tests;
+			productName = Martist1.0Tests;
+			productReference = 3B1A2FEF15F83A3D0047FBB4 /* Martist1.0Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B1A2FBC15F83A3C0047FBB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "青井 翔平";
+			};
+			buildConfigurationList = 3B1A2FBF15F83A3C0047FBB4 /* Build configuration list for PBXProject "Martist1.0" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3B1A2FBA15F83A3C0047FBB4;
+			productRefGroup = 3B1A2FC615F83A3C0047FBB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B1A2FC415F83A3C0047FBB4 /* Martist1.0 */,
+				3B1A2FEE15F83A3D0047FBB4 /* Martist1.0Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B1A2FC315F83A3C0047FBB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B1A2FD415F83A3C0047FBB4 /* InfoPlist.strings in Resources */,
+				3B1A2FE615F83A3D0047FBB4 /* MainStoryboard_iPhone.storyboard in Resources */,
+				3B1A2FE915F83A3D0047FBB4 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B1A2FEC15F83A3D0047FBB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B1A2FFB15F83A3D0047FBB4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B1A2FED15F83A3D0047FBB4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B1A2FC115F83A3C0047FBB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B1A2FD615F83A3C0047FBB4 /* main.m in Sources */,
+				3B1A2FDA15F83A3C0047FBB4 /* AppDelegate.m in Sources */,
+				3B1A2FDD15F83A3C0047FBB4 /* RootViewController.m in Sources */,
+				3B1A2FE015F83A3C0047FBB4 /* DataViewController.m in Sources */,
+				3B1A2FE315F83A3C0047FBB4 /* ModelController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B1A2FEA15F83A3D0047FBB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B1A2FFE15F83A3D0047FBB4 /* Martist1_0Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B1A2FF515F83A3D0047FBB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B1A2FC415F83A3C0047FBB4 /* Martist1.0 */;
+			targetProxy = 3B1A2FF415F83A3D0047FBB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B1A2FD215F83A3C0047FBB4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B1A2FD315F83A3C0047FBB4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3B1A2FE415F83A3C0047FBB4 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B1A2FE515F83A3C0047FBB4 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		3B1A2FE715F83A3D0047FBB4 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B1A2FE815F83A3D0047FBB4 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		3B1A2FF915F83A3D0047FBB4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B1A2FFA15F83A3D0047FBB4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B1A2FFF15F83A3D0047FBB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B1A300015F83A3D0047FBB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B1A300215F83A3D0047FBB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Martist1.0/Martist1.0-Prefix.pch";
+				INFOPLIST_FILE = "Martist1.0/Martist1.0-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3B1A300315F83A3D0047FBB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Martist1.0/Martist1.0-Prefix.pch";
+				INFOPLIST_FILE = "Martist1.0/Martist1.0-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3B1A300515F83A3D0047FBB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Martist1.0.app/Martist1.0";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Martist1.0/Martist1.0-Prefix.pch";
+				INFOPLIST_FILE = "Martist1.0Tests/Martist1.0Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3B1A300615F83A3D0047FBB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Martist1.0.app/Martist1.0";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Martist1.0/Martist1.0-Prefix.pch";
+				INFOPLIST_FILE = "Martist1.0Tests/Martist1.0Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B1A2FBF15F83A3C0047FBB4 /* Build configuration list for PBXProject "Martist1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B1A2FFF15F83A3D0047FBB4 /* Debug */,
+				3B1A300015F83A3D0047FBB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B1A300115F83A3D0047FBB4 /* Build configuration list for PBXNativeTarget "Martist1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B1A300215F83A3D0047FBB4 /* Debug */,
+				3B1A300315F83A3D0047FBB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3B1A300415F83A3D0047FBB4 /* Build configuration list for PBXNativeTarget "Martist1.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B1A300515F83A3D0047FBB4 /* Debug */,
+				3B1A300615F83A3D0047FBB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B1A2FBC15F83A3C0047FBB4 /* Project object */;
+}
